@@ -16,7 +16,7 @@ Installation, configuration, and understanding of the latest [Docker](https://do
 ### Build, compile, and run
 1. Fetch and clone the source repository.
     ``` 
-    $ git clone https://github.com/awentzel/azure-nginx.git
+    $ git clone https://github.com/awentzel/azure-nginx-ssl.git
 2. Build with Docker
     ``` 
     $ docker build -t azure-nginx .
