@@ -28,7 +28,7 @@ Installation, configuration, and understanding of the latest [Docker](https://do
     $ docker run -p 80:80 -d azure-nginx
 4. Browsing the web site. You may want to comment out the redirect statement to test site is loading correctly. Otherwise, you'll be redirected to https and site will not load except on Azure.
     ``` 
-    Execute on your favorite brwoser: http://localhost    
+    $ curl http://localhost    
 
 ### Project changes and recompiling
 1. Review running containers on Docker
