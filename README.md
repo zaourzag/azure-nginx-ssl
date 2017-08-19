@@ -15,23 +15,31 @@ Installation, configuration, and understanding of the latest [Docker](https://do
 
 ### Build, compile, and run
 1. Fetch and clone the source repository.
-    ``` git clone https://github.com/awentzel/azure-nginx.git
+    ``` 
+    $ git clone https://github.com/awentzel/azure-nginx.git
 2. Build with Docker
-    ``` docker build -t azure-nginx .
+    ``` 
+    $ docker build -t azure-nginx .
 3. Running as Docker and listening to web traffic. This is useful to determine if there are any configuration or run-time errors.
-    ``` docker run -p 80:80 azure-nginx
+    ``` 
+    $ docker run -p 80:80 azure-nginx
 3. Running as Docker with -d parameter to
-    ``` docker run -p 80:80 -d azure-nginx
+    ``` 
+    $ docker run -p 80:80 -d azure-nginx
 4. Browsing the web site. You may want to comment out the redirect statement to test site is loading correctly. Otherwise, you'll be redirected to https and site will not load except on Azure.
-    ``` run http://localhost    
+    ``` 
+    Execute on your favorite brwoser: http://localhost    
 
 ### Project changes and recompiling
 1. Review running containers on Docker
-    ``` docker ps
+    ``` 
+    $ docker ps
 2. Find the "CONTAINER ID" and copy and past to use after the stop command. You can choose the id or "NAMES"
-    ``` docker stop 0dce4d4e5f4f
+    ``` 
+    $ docker stop 0dce4d4e5f4f
     or
-    ``` docker stop hardcore_borg
+    ``` 
+    $ docker stop hardcore_borg
 3. Make edits and return to setp #2 for re-building and running Docker
 
 #### Inspiration
@@ -40,6 +48,3 @@ A big thanks for giving inspriration and ideas on best way to organize, build, a
 - [ngineered](https://github.com/ngineered/nginx-static)
 - [Kyle Mathews](https://www.bricolage.io/hosting-static-sites-with-docker-and-nginx/)
 - [h5bp](https://github.com/h5bp/server-configs-nginx)
-
-
-
