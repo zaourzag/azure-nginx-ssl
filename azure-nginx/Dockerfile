@@ -12,11 +12,11 @@ RUN mkdir -p /home/LogFiles \
 	&& ln -sf /dev/stdout /home/LogFiles/access.log \
 	&& ln -sf /dev/stderr /home/LogFiles/error.log
 
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
-COPY sshd_config /etc/ssh/
-COPY init_container.sh /bin/
-COPY hostingstart.html /home/site/wwwroot/hostingstart.html
+COPY config/nginx.conf /etc/nginx/nginx.conf
+COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
+COPY config/sshd_config /etc/ssh/
+COPY app/hostingstart.html /home/site/wwwroot/hostingstart.html
+COPY scripts/start.sh /bin/
 
 EXPOSE 80 2222
-CMD ["/bin/init_container.sh"]
+CMD ["/bin/start.sh"]

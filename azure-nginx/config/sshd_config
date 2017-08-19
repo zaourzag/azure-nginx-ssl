@@ -12,9 +12,6 @@ StrictModes 		yes
 SyslogFacility 		DAEMON
 PrintMotd 		      no
 IgnoreRhosts 		no
-RhostsAuthentication 	no
-RhostsRSAAuthentication yes
-RSAAuthentication 	no 
 PasswordAuthentication 	yes
 PermitEmptyPasswords 	no
 PermitRootLogin 	yes
