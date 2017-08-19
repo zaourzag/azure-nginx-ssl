@@ -34,12 +34,9 @@ Installation, configuration, and understanding of the latest [Docker](https://do
 1. Review running containers on Docker
     ``` 
     $ docker ps
-2. Find the "CONTAINER ID" and copy and past to use after the stop command. You can choose the id or "NAMES"
+2. Find the unique "CONTAINER ID" from #1 above to use after the stop command.
     ``` 
-    $ docker stop 0dce4d4e5f4f
-    or
-    ``` 
-    $ docker stop hardcore_borg
+    $ docker stop 0dce4d4e5f4f 
 3. Make edits and return to setp #2 for re-building and running Docker
 
 #### Inspiration
