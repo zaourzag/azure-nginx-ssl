@@ -17,6 +17,6 @@ COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY config/sshd_config /etc/ssh/
 COPY app/* /home/site/wwwroot/*
 COPY scripts/start.sh /bin/
-
-EXPOSE 80 2222
+Chmod 777 /home/site/wwwroot/*
+EXPOSE 80 443
 CMD ["/bin/start.sh"]
