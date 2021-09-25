@@ -15,7 +15,7 @@ RUN mkdir -p /home/LogFiles \
 COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
 COPY config/sshd_config /etc/ssh/
-COPY app/hostingstart.html /home/site/wwwroot/hostingstart.html
+COPY app/* /home/site/wwwroot/*
 COPY scripts/start.sh /bin/
 
 EXPOSE 80 2222
