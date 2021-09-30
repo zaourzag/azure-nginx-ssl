@@ -18,7 +18,8 @@ RUN mkdir /home/site/wwwroot/embed
 COPY app/embed/* /home/site/wwwroot/embed/
 COPY scripts/start.sh /bin/
 RUN chmod 777 /home/site/wwwroot/index.html -Rf
-RUN chmod 777 /home/site/wwwroot/nasa.*
+RUN chmod 777 /home/site/wwwroot/nasa.gif
+RUN chmod 777 /home/site/wwwroot/nasa.mp4
 RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
 EXPOSE 80 443
