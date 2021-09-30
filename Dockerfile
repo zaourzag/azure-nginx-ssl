@@ -19,7 +19,7 @@ COPY app/* /home/site/wwwroot/
 RUN mkdir /home/site/wwwroot/embed
 COPY app/embed/* /home/site/wwwroot/embed/
 COPY scripts/start.sh /bin/
-RUN chmod 777 /home/site/wwwroot/* -rf
-RUN chmod 777 /home/site/wwwroot/embed/* -rf
+RUN chmod 777 /home/site/wwwroot/* -Rf
+RUN chmod 777 /home/site/wwwroot/embed/* -Rf
 EXPOSE 80 443
 CMD ["/bin/start.sh"]
