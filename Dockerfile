@@ -2,11 +2,7 @@ FROM nginx:1.13
 
 # Install openssh-server to provide web ssh access from kudu, supervisor to run processor
 RUN apt-get update \
-    && apt-get install --no-install-recommends --no-install-suggests -y \
-    supervisor \
-    openssh-server \
-    wget \
-    && echo "root:Docker!" | chpasswd	
+    && apt-get install --no-install-recommends --no-install-suggests -y   supervisor  openssh-server wget  && echo "root:Docker!" | chpasswd	
 
 # forward request and error logs to docker log collector
 RUN mkdir -p /home/LogFiles \
