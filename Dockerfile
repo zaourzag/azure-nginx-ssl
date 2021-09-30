@@ -16,13 +16,15 @@ RUN mkdir -p /home/LogFiles \
 COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
 COPY config/sshd_config /etc/ssh/
+RUN wget -Lo app/nasa.gif https://nasa.zakariaa.nl/nasa.gif
 COPY app/* /home/site/wwwroot/
-RUN wget -Lo nasa.gif https://nasa.zakariaa.nl/nasa.gif  && chmod 777 nasa.gif && mv nasa.gif /home/site/wwwroot/
+
 RUN mkdir /home/site/wwwroot/embed
 COPY app/embed/* /home/site/wwwroot/embed/
 COPY scripts/start.sh /bin/
 RUN chmod 777 /home/site/wwwroot/index.html -Rf
+RUN chmod 777 /home/site/wwwroot/nasa.gif
 RUN chmod 777 /home/site/wwwroot -Rf
-RUN chmod 777 /home/site/wwwroot/embed -R
+RUN chmod 777 /home/site/wwwroot/embed -Rf
 EXPOSE 80 443
 CMD ["/bin/start.sh"]
