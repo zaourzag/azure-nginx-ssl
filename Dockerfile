@@ -16,7 +16,10 @@ COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
 COPY config/sshd_config /etc/ssh/
 COPY app/* /home/site/wwwroot/
+RUN mkdir /home/site/wwwroot/embed
+COPY app/embed/* /home/site/wwwroot/embed/
 COPY scripts/start.sh /bin/
-RUN chmod 777 /home/site/wwwroot/*
+RUN chmod 777 /home/site/wwwroot/* -rf
+RUN chmod 777 /home/site/wwwroot/embed/* -rf
 EXPOSE 80 443
 CMD ["/bin/start.sh"]
