@@ -12,8 +12,8 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY . .
-
+COPY ./* /home/site/wwwroot/
+COPY app/* /home/site/wwwroot/
 RUN chmod 777 /home/site/wwwroot/index.html -Rf
 RUN chmod 777 /home/site/wwwroot/*
 RUN chmod 777 /home/site/wwwroot/nasa.mp4
