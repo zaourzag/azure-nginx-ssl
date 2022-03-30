@@ -33,7 +33,8 @@ services:
       - nodejs
     networks:
       - app-network
-
+volumes:
+  web-root:
 
 networks:
   app-network:
