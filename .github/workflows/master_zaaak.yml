@@ -5,7 +5,7 @@ name: Build and deploy container app to Azure Web App - zaaak
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - './*'
       - 'shared/**'
