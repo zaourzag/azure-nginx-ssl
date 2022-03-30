@@ -21,7 +21,7 @@ RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
 COPY package*.json ./
 
-RUN npm install
+RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 80 443
 CMD ["/bin/start.sh"]
