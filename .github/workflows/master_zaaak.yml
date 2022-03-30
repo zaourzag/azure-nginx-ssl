@@ -34,7 +34,7 @@ jobs:
         username: ${{ secrets.AzureAppService_ContainerUsername_30508dd8c917406b9958a976455aaf09 }}
         password: ${{ secrets.AzureAppService_ContainerPassword_7fbb8a6e5ec5442e8e2cf9710eb8182c }}
     - name: login image
-      run: docker login -u `${{ secrets.AzureAppService_ContainerUsername_30508dd8c917406b9958a976455aaf09 }}` -p `${{ secrets.AzureAppService_ContainerPassword_7fbb8a6e5ec5442e8e2cf9710eb8182c }}`
+      run: docker login -u $secrets.AzureAppService_ContainerUsername_30508dd8c917406b9958a976455aaf09 -p $secrets.AzureAppService_ContainerPassword_7fbb8a6e5ec5442e8e2cf9710eb8182c
     - name: Build image
       run: docker compose -f docker-compose.yml build
     - name: Push image to DO Container Registry
