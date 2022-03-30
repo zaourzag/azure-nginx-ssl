@@ -13,6 +13,9 @@ COPY package*.json ./
 RUN npm install
 
 COPY ./* /home/site/wwwroot/
+COPY ./routes/* /home/sites/wwwroot/routes/
+COPY ./views/* /home/sites/wwwroot/views/
+COPY ./src/* /home/sites/wwwroot/src
 COPY app/* /home/site/wwwroot/
 RUN chmod 777 /home/site/wwwroot/index.html -Rf
 RUN chmod 777 /home/site/wwwroot/*
