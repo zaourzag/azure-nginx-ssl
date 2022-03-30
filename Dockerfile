@@ -7,22 +7,23 @@ RUN mkdir -p /home/LogFiles \
 	&& ln -sf /dev/stdout /home/LogFiles/access.log \
 	&& ln -sf /dev/stderr /home/LogFiles/error.log
 WORKDIR /home/site/wwwroot
-
+COPY scripts/start.sh /bin/
+COPY ./* /home/site/wwwroot/
+COPY ./routes/* /home/site/wwwroot/routes/
+COPY ./views/* /home/site/wwwroot/views/
+COPY ./src/* /home/site/wwwroot/src
+COPY app/* /home/site/wwwroot/
+RUN chmod 777 /home/site/wwwroot/index.html -Rf
+RUN chmod 777 /home/site/wwwroot/*
+RUN chmod 777 /home/site/wwwroot/start.sh
+RUN chmod 777 /home/site/wwwroot/nasa.mp4
+RUN chmod 777 /home/site/wwwroot -Rf
+RUN chmod 777 /home/site/wwwroot/embed -Rf
 COPY package*.json ./
 
 RUN npm install
 
-COPY ./* /home/site/wwwroot/
-COPY ./routes/* /home/sites/wwwroot/routes/
-COPY ./views/* /home/sites/wwwroot/views/
-COPY ./src/* /home/sites/wwwroot/src
-COPY app/* /home/site/wwwroot/
-RUN chmod 777 /home/site/wwwroot/index.html -Rf
-RUN chmod 777 /home/site/wwwroot/*
-RUN chmod 777 /home/site/wwwroot/nasa.mp4
-RUN chmod 777 /home/site/wwwroot -Rf
-RUN chmod 777 /home/site/wwwroot/embed -Rf
 EXPOSE 80 443
-CMD ["node", "index.js"]
+CMD ["/bin/start.sh"]
 
 
