@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  nodejs:
+  expressst:
     build:
       context: .
       dockerfile: Dockerfile
