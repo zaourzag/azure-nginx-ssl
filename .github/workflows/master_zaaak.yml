@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: https://index.docker.io/v1/
-        username: ${{ secrets.AzureAppService_ContainerUsername_bbcdd3a76c984a8da5e97513cabe411d }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_5d26c0d684b14f968414f758d1ce166e }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_07f7a5010d5a46bfbebbb1c9622bdc2d }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_2dd9e78a39bd4b029df69abee9ae80e6 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_bbcdd3a76c984a8da5e97513cabe411d }}/zaourzag/expresst:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_07f7a5010d5a46bfbebbb1c9622bdc2d }}/zaourzag/expresst:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'zaaak'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_93adb90812c948bca65325226fc0df6e }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_bbcdd3a76c984a8da5e97513cabe411d }}/zaourzag/expresst:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cfde5878e30d4cd0aa61f1120c77af6d }}
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_07f7a5010d5a46bfbebbb1c9622bdc2d }}/zaourzag/expresst:${{ github.sha }}'
