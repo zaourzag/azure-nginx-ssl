@@ -14,7 +14,7 @@ services:
   webserver:
   
     image: nginx:1.13
-    container_name: webserver
+    container_name: nginxt
     restart: unless-stopped
     ports:
       - "80:80"
@@ -35,7 +35,7 @@ services:
       
    
     depends_on:
-      - nodejs
+      - expressst
     networks:
       - app-network
 volumes:
