@@ -24,7 +24,7 @@ COPY package*.json ./
 
 RUN npm ci --omit=dev --ignore-scripts
 
-EXPOSE 80 443 *
+EXPOSE 80 443 
 CMD ["/bin/start.sh"]
 
 
