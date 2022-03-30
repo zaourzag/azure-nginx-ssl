@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nodejs:16
+    image: expressst
     container_name: expresst
     restart: unless-stopped
     networks:
