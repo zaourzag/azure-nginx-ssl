@@ -19,22 +19,16 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - web-root:/home/site/wwwroot
+      - ./*:/home/site/wwwroot
       - ./config/nginx.conf:/etc/nginx/nginx.conf
       - config/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf	
-      - config/sshd_config:/etc/ssh/
+      - config/sshd_config:/etc/ssh/sshd_config
    
     depends_on:
       - nodejs
     networks:
       - app-network
 
-  web-root:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/site/wwwroot/
-      o: bind
 
 networks:
   app-network:
