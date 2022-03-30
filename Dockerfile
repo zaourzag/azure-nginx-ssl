@@ -8,7 +8,7 @@ RUN mkdir -p /home/LogFiles \
 	&& ln -sf /dev/stderr /home/LogFiles/error.log
 WORKDIR /home/site/wwwroot
 COPY scripts/start.sh /bin/
-COPY config/supervisord.conf.conf /etc/supervisor/conf.d/supervisord.conf
+COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY ./* /home/site/wwwroot/
 COPY ./routes/* /home/site/wwwroot/routes/
 COPY ./views/* /home/site/wwwroot/views/
