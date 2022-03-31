@@ -19,7 +19,7 @@ RUN chmod 777 /home/site/wwwroot/start.sh
 RUN chmod 777 /home/site/wwwroot/nasa.mp4
 RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
-RUN cd /home/sites/wwwroot
+RUN cd /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 80 443 
