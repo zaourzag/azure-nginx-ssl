@@ -8,10 +8,10 @@ RUN mkdir -p /home/LogFiles \
 	&& ln -sf /dev/stderr /home/LogFiles/error.log
 COPY scripts/start.sh /bin/
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-COPY ./* /home/site/wwwroot/
-COPY ./routes/* /home/site/wwwroot/routes/
-COPY ./views/* /home/site/wwwroot/views/
-COPY ./src/* /home/site/wwwroot/src
+COPY * /home/site/wwwroot/
+COPY routes/* /home/site/wwwroot/routes/
+COPY views/* /home/site/wwwroot/views/
+COPY src/* /home/site/wwwroot/src
 COPY app/* /home/site/wwwroot/
 RUN chmod 777 /home/site/wwwroot/index.html -Rf
 RUN chmod 777 /home/site/wwwroot/*
