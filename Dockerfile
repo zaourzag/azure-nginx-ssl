@@ -23,11 +23,12 @@ COPY readdir.js /home/site/
 COPY index.json /home/sites
 WORKDIR /home/site/wwwroot
 COPY package*.json ./
+COPY . .
 COPY index.json /home/site/wwwroot
 COPY readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
-EXPOSE 80 443 8080
+EXPOSE 8080 443 80
 CMD [ "npm", "start" ]
 
 
