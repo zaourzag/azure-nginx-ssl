@@ -19,10 +19,11 @@ RUN chmod 777 /home/site/wwwroot/start.sh
 RUN chmod 777 /home/site/wwwroot/nasa.mp4
 RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
-RUN cd /home/site/wwwroot
+WORKDIR /home/site/wwwroot
+COPY package*.json ./
 RUN npm ci --omit=dev --ignore-scripts
 
-EXPOSE 80 443 
+EXPOSE 80 443 8080
 CMD ["/bin/start.sh"]
 
 
