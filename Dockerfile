@@ -28,7 +28,7 @@ COPY index.json /home/site/wwwroot
 COPY readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
-EXPOSE 8080 443 80
+EXPOSE 8080 443 
 CMD [ "npm", "start" ]
 
 
