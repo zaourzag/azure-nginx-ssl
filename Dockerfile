@@ -19,7 +19,7 @@ RUN chmod 777 /home/site/wwwroot/start.sh
 RUN chmod 777 /home/site/wwwroot/nasa.mp4
 RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
-COPY readdir.js /home/site/
+COPY readdir.js /home/site/wwwroot
 WORKDIR /home/site/wwwroot
 COPY package*.json ./
 COPY index.json /home/site/wwwroot
