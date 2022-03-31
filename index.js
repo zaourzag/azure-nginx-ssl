@@ -1,7 +1,7 @@
 const app = require('./app');
 const config = require('./config');
 
-const PORT = process.env.PORT || config.port;
+const PORT = '80'
 
 const server = app.listen(PORT,'0.0.0.0', () => console.log(`[Kubernetes] Probes API is listening on ${process.env.PORT}`));
 // eslint-disable-next-line no-unused-expressions
