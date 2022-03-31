@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_2d2e9263fb0747419d21e4228fb93f82 }}/zaourzag/expresst:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_2d2e9263fb0747419d21e4228fb93f82 }}/expresst:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'zaaak'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_0c8fbff5d3fc44b8b6a0ade5d0737c4d }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_2d2e9263fb0747419d21e4228fb93f82 }}/zaourzag/expresst:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_2d2e9263fb0747419d21e4228fb93f82 }}/expresst:${{ github.sha }}'
