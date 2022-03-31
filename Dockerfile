@@ -8,7 +8,7 @@ RUN mkdir -p /home/LogFiles \
 	&& ln -sf /dev/stderr /home/LogFiles/error.log
 COPY scripts/start.sh /bin/
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-COPY * ./
+COPY * /home/site/wwwroot/
 COPY routes/* /home/site/wwwroot/routes/
 COPY views/* /home/site/wwwroot/views/
 COPY src/* /home/site/wwwroot/src
@@ -21,7 +21,7 @@ RUN chmod 777 /home/site/wwwroot -Rf
 RUN chmod 777 /home/site/wwwroot/embed -Rf
 WORKDIR /home/site/wwwroot
 COPY package*.json ./
-COPY readdir.js ./
+COPY readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 80 443 8080
