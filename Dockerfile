@@ -29,6 +29,7 @@ RUN npm i  --ignore-scripts
 RUN npm i -s puppeteer
 WORKDIR /home/site/wwwroot/src/app
 RUN npm i
+RUN npm install --only=dev
 RUN npm run build
 EXPOSE 8080 443 
 CMD [ "/bin/start.sh"]
