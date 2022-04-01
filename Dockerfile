@@ -28,6 +28,6 @@ COPY src/readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 8080 443 
-CMD [ "/bin/start.sh""]
+CMD [ "/bin/start.sh"]
 
 
