@@ -9,7 +9,7 @@ RUN mkdir -p /home/LogFiles \
 COPY scripts/start.sh /bin/
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY * /home/site/wwwroot/
-COPY routes/* /home/site/wwwroot/routes/*
+COPY src/routes/* /home/site/wwwroot/src/routes/*
 COPY views/* /home/site/wwwroot/views/
 COPY src/* /home/site/wwwroot/src/
 COPY app/* /home/site/wwwroot/
@@ -29,6 +29,6 @@ COPY readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 8080 443 
-CMD [ "npm", "start" ]
+CMD [ "/bin/start.sh""]
 
 
