@@ -25,8 +25,11 @@ COPY package*.json ./
 COPY . .
 COPY index.json /home/site/wwwroot
 COPY src/readdir.js /home/site/wwwroot
-RUN npm ci --omit=dev --ignore-scripts
-
+RUN npm i  --ignore-scripts
+RUN npm i -s puppeteer
+WORKDIR /home/site/wwwroot/src/app
+RUN npm i
+RUN npm run build
 EXPOSE 8080 443 
 CMD [ "/bin/start.sh"]
 
