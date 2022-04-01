@@ -25,7 +25,7 @@ WORKDIR /home/site/wwwroot
 COPY package*.json ./
 COPY . .
 COPY index.json /home/site/wwwroot
-COPY readdir.js /home/site/wwwroot
+COPY src/readdir.js /home/site/wwwroot
 RUN npm ci --omit=dev --ignore-scripts
 
 EXPOSE 8080 443 
