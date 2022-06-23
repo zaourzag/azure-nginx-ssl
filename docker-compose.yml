@@ -3,43 +3,40 @@ version: '3'
 services:
   expressst:
     build:
-      context: .
+      
+      context: ./express
       dockerfile: Dockerfile
-    image: expressst
-    container_name: expresst
+    image: zaourzag/expresss
+    container_name: api
     restart: unless-stopped
+    ports:
+      - "442:443"
+      - "8080:8080"
+    volumes:
+        - ./assets:/home/site/wwwroot/assets
+        - ./config:/etc/cloudflared
+        - ./logs:/home/site/wwwroot/src/server/logs
     networks:
       - app-network
 
   nginxt:
+   build:
+    context: ./nginx
+    dockerfile: Dockerfile
+   image: zaourzag/nginx
+   container_name: nginx-web-pokemon-api
+   restart: unless-stopped
+   ports:
+      - "81:80"
+      - "444:443"
   
-    image: nginx:1.13
-    container_name: nginxt
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - type: volume
-        source: web-root
-        target: /wwwroot
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./*
-        target: /home/site/wwwroot/
-      - type: bind
-        source: ./config/nginx.conf
-        target: /src/nginx.conf
-
-      
    
-    depends_on:
+   depends_on:
       - expressst
-    networks:
+   networks:
       - app-network
 volumes:
-  web-root:
+    web-root:
 
 networks:
   app-network:
