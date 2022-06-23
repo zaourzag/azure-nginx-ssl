@@ -1,0 +1,170 @@
+{ 'API': 'is listening on 8080'}
+{
+    "responseTime": "19ms",
+    "method": "GET",
+    "url": "/api/links/view?auth=Zakaria1",
+    "ip": "245.212.194.237, 192.168.128.2",
+    "body": {},
+    "params": {},
+    "query": {
+        "auth": "Zakaria1"
+    },
+    "httpVersion": "1.0",
+    "statusCode": [32m200[0m,
+    "timeStamp": "02/May/2022:00:32:38 +0000",
+    "contentType": "text/plain; charset=utf-8",
+    "contentLength": "141",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+    "referrer": null,
+    "userAnalytics": {
+        "browser": "Chrome",
+        "browserVersion": "100.0.4896.127",
+        "os": "Windows",
+        "osVersion": "10"
+    },
+    "headers": {
+        "host": "api.zakariao.nl",
+        "x-real-ip": "192.168.128.2",
+        "x-forwarded-for": "245.212.194.237, 192.168.128.2",
+        "x-forwarded-host": "_",
+        "connection": "close",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip",
+        "accept-language": "nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7",
+        "cache-control": "max-age=0",
+        "cdn-loop": "cloudflare",
+        "cf-connecting-ip": "245.212.194.237",
+        "cf-connecting-ipv6": "2001:1c03:6017:de00:2a18:c888:1326:b959",
+        "cf-ipcountry": "NL",
+        "cf-pseudo-ipv4": "245.212.194.237",
+        "cf-ray": "704ca9249fde7773-LHR",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "cf-warp-tag-id": "2c02ee30-a955-4bcd-9704-57b42d6bbc49",
+        "cookie": "_ga_W2VML50WS1=GS1.1.1651076407.1.0.1651076407.0; _ga=GA1.2.1079948162.1651076410; __stripe_mid=bb70c58c-7c9f-4153-bddc-b0f5b00d75d7154154",
+        "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "x-forwarded-proto": "https"
+    }
+}
+Woodlot: Error occurred while writing log entry to file stream. 
+TypeError: invalid options argumenthttps://zakaria.is-ne.at/5v3cVGNJg https://fuck.you https://zakaria.is-ne.at/5v3cVGNJg
+{
+    "responseTime": "514ms",
+    "method": "GET",
+    "url": "/api/link/?link=https://fuck.you",
+    "ip": "245.212.194.237, 192.168.128.2",
+    "body": {},
+    "params": {},
+    "query": {
+        "link": "https://fuck.you"
+    },
+    "httpVersion": "1.0",
+    "statusCode": [32m200[0m,
+    "timeStamp": "02/May/2022:00:32:43 +0000",
+    "contentType": "application/json; charset=utf-8",
+    "contentLength": "137",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+    "referrer": null,
+    "userAnalytics": {
+        "browser": "Chrome",
+        "browserVersion": "100.0.4896.127",
+        "os": "Windows",
+        "osVersion": "10"
+    },
+    "headers": {
+        "host": "api.zakariao.nl",
+        "x-real-ip": "192.168.128.2",
+        "x-forwarded-for": "245.212.194.237, 192.168.128.2",
+        "x-forwarded-host": "_",
+        "connection": "close",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip",
+        "accept-language": "nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7",
+        "cache-control": "max-age=0",
+        "cdn-loop": "cloudflare",
+        "cf-connecting-ip": "245.212.194.237",
+        "cf-connecting-ipv6": "2001:1c03:6017:de00:2a18:c888:1326:b959",
+        "cf-ipcountry": "NL",
+        "cf-pseudo-ipv4": "245.212.194.237",
+        "cf-ray": "704ca93ebaf97773-LHR",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "cf-warp-tag-id": "2c02ee30-a955-4bcd-9704-57b42d6bbc49",
+        "cookie": "_ga_W2VML50WS1=GS1.1.1651076407.1.0.1651076407.0; _ga=GA1.2.1079948162.1651076410; __stripe_mid=bb70c58c-7c9f-4153-bddc-b0f5b00d75d7154154",
+        "if-none-match": "W/\"96-sLvYUEZByR25prWv3217nsK4Lwg\"",
+        "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "x-forwarded-proto": "https"
+    }
+}
+Woodlot: Error occurred while writing log entry to file stream. 
+TypeError: invalid options argument{
+    "responseTime": "4ms",
+    "method": "GET",
+    "url": "/api/links/view?auth=Zakaria1",
+    "ip": "245.212.194.237, 192.168.128.2",
+    "body": {},
+    "params": {},
+    "query": {
+        "auth": "Zakaria1"
+    },
+    "httpVersion": "1.0",
+    "statusCode": [32m200[0m,
+    "timeStamp": "02/May/2022:00:32:46 +0000",
+    "contentType": "text/plain; charset=utf-8",
+    "contentLength": "198",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+    "referrer": null,
+    "userAnalytics": {
+        "browser": "Chrome",
+        "browserVersion": "100.0.4896.127",
+        "os": "Windows",
+        "osVersion": "10"
+    },
+    "headers": {
+        "host": "api.zakariao.nl",
+        "x-real-ip": "192.168.128.2",
+        "x-forwarded-for": "245.212.194.237, 192.168.128.2",
+        "x-forwarded-host": "_",
+        "connection": "close",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip",
+        "accept-language": "nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7",
+        "cache-control": "max-age=0",
+        "cdn-loop": "cloudflare",
+        "cf-connecting-ip": "245.212.194.237",
+        "cf-connecting-ipv6": "2001:1c03:6017:de00:2a18:c888:1326:b959",
+        "cf-ipcountry": "NL",
+        "cf-pseudo-ipv4": "245.212.194.237",
+        "cf-ray": "704ca9563d7d7773-LHR",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "cf-warp-tag-id": "2c02ee30-a955-4bcd-9704-57b42d6bbc49",
+        "cookie": "_ga_W2VML50WS1=GS1.1.1651076407.1.0.1651076407.0; _ga=GA1.2.1079948162.1651076410; __stripe_mid=bb70c58c-7c9f-4153-bddc-b0f5b00d75d7154154",
+        "if-none-match": "W/\"8d-CrXayYcrwkYsL2lw1LobKOV7h1U\"",
+        "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "x-forwarded-proto": "https"
+    }
+}
+Woodlot: Error occurred while writing log entry to file stream. 
+TypeError: invalid options argument

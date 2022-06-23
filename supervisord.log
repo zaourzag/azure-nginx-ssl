@@ -1,0 +1,424 @@
+2022-04-01 20:26:22,772 CRIT Supervisor running as root (no user in config file)
+2022-04-01 20:26:22,783 INFO supervisord started with pid 25
+2022-04-01 20:26:23,786 INFO spawned: 'nginx' with pid 28
+2022-04-01 20:26:23,909 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 20:26:24,912 INFO spawned: 'nginx' with pid 29
+2022-04-01 20:26:24,919 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 20:26:26,923 INFO spawned: 'nginx' with pid 30
+2022-04-01 20:26:26,934 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 20:26:29,940 INFO spawned: 'nginx' with pid 31
+2022-04-01 20:26:29,948 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 20:26:30,952 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2022-04-01 20:47:34,230 CRIT Supervisor running as root (no user in config file)
+2022-04-01 20:47:34,241 INFO supervisord started with pid 24
+2022-04-01 20:47:35,244 INFO spawned: 'nginx' with pid 27
+2022-04-01 20:47:36,246 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 20:56:03,091 INFO exited: nginx (exit status 0; expected)
+2022-04-01 21:05:46,713 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:05:46,721 INFO supervisord started with pid 24
+2022-04-01 21:05:47,722 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:05:48,737 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:07:42,921 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:07:42,929 INFO supervisord started with pid 24
+2022-04-01 21:07:43,932 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:07:44,933 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:10:10,861 INFO exited: nginx (exit status 0; expected)
+2022-04-01 21:22:27,623 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:22:27,663 INFO supervisord started with pid 24
+2022-04-01 21:22:28,670 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:22:29,672 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:23:20,541 INFO exited: nginx (exit status 0; expected)
+2022-04-01 21:43:15,360 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:43:15,368 INFO supervisord started with pid 24
+2022-04-01 21:43:16,370 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:43:16,377 INFO spawned: 'UwU' with pid 28
+2022-04-01 21:43:16,382 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:43:16,402 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:43:17,404 INFO spawned: 'nginx' with pid 29
+2022-04-01 21:43:17,408 INFO spawned: 'UwU' with pid 30
+2022-04-01 21:43:17,412 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:43:17,413 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:43:19,417 INFO spawned: 'nginx' with pid 31
+2022-04-01 21:43:19,419 INFO spawned: 'UwU' with pid 32
+2022-04-01 21:43:19,424 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:43:19,425 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:43:22,432 INFO spawned: 'nginx' with pid 33
+2022-04-01 21:43:22,434 INFO spawned: 'UwU' with pid 34
+2022-04-01 21:43:22,439 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:43:22,441 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:43:22,443 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2022-04-01 21:43:22,444 INFO gave up: UwU entered FATAL state, too many start retries too quickly
+2022-04-01 21:44:21,289 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:44:21,318 INFO supervisord started with pid 21
+2022-04-01 21:44:22,321 INFO spawned: 'nginx' with pid 24
+2022-04-01 21:44:22,323 INFO spawned: 'UwU' with pid 25
+2022-04-01 21:44:22,328 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:44:22,329 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:44:23,333 INFO spawned: 'nginx' with pid 26
+2022-04-01 21:44:23,334 INFO spawned: 'UwU' with pid 27
+2022-04-01 21:44:23,339 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:44:23,340 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:44:25,344 INFO spawned: 'nginx' with pid 28
+2022-04-01 21:44:25,348 INFO spawned: 'UwU' with pid 29
+2022-04-01 21:44:25,352 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:44:25,353 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:44:28,358 INFO spawned: 'nginx' with pid 30
+2022-04-01 21:44:28,361 INFO spawned: 'UwU' with pid 31
+2022-04-01 21:44:28,364 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:44:28,365 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:44:28,367 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2022-04-01 21:44:28,368 INFO gave up: UwU entered FATAL state, too many start retries too quickly
+2022-04-01 21:46:03,630 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:46:03,635 INFO supervisord started with pid 24
+2022-04-01 21:46:04,638 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:46:04,640 INFO spawned: 'UwU' with pid 28
+2022-04-01 21:46:04,644 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:46:05,645 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:46:05,647 INFO spawned: 'UwU' with pid 29
+2022-04-01 21:46:05,651 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:46:07,656 INFO spawned: 'UwU' with pid 30
+2022-04-01 21:46:07,662 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:46:10,668 INFO spawned: 'UwU' with pid 31
+2022-04-01 21:46:10,672 INFO exited: UwU (exit status 127; not expected)
+2022-04-01 21:46:11,673 INFO gave up: UwU entered FATAL state, too many start retries too quickly
+2022-04-01 21:46:24,660 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:46:25,663 INFO spawned: 'nginx' with pid 32
+2022-04-01 21:46:26,665 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:46:45,685 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:46:46,687 INFO spawned: 'nginx' with pid 42
+2022-04-01 21:46:47,689 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:47:06,716 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:47:07,718 INFO spawned: 'nginx' with pid 44
+2022-04-01 21:47:08,723 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:48:32,606 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:48:32,616 INFO supervisord started with pid 24
+2022-04-01 21:48:33,619 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:48:33,621 INFO spawned: 'UwU' with pid 28
+2022-04-01 21:48:35,524 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:48:35,525 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:48:53,642 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:48:54,644 INFO spawned: 'nginx' with pid 51
+2022-04-01 21:48:55,646 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:49:14,669 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:49:15,672 INFO spawned: 'nginx' with pid 52
+2022-04-01 21:49:16,674 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:49:35,695 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:49:36,698 INFO spawned: 'nginx' with pid 61
+2022-04-01 21:49:37,926 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:49:56,725 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:49:57,728 INFO spawned: 'nginx' with pid 64
+2022-04-01 21:49:58,739 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:49:58,799 INFO exited: nginx (terminated by SIGTERM; not expected)
+2022-04-01 21:49:59,801 INFO spawned: 'nginx' with pid 66
+2022-04-01 21:50:00,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:50:02,226 INFO exited: nginx (terminated by SIGTERM; not expected)
+2022-04-01 21:50:03,229 INFO spawned: 'nginx' with pid 68
+2022-04-01 21:50:03,249 INFO exited: nginx (terminated by SIGTERM; not expected)
+2022-04-01 21:50:04,252 INFO spawned: 'nginx' with pid 70
+2022-04-01 21:50:05,254 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:50:24,280 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:50:25,283 INFO spawned: 'nginx' with pid 71
+2022-04-01 21:50:26,286 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:50:45,307 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:50:46,309 INFO spawned: 'nginx' with pid 99
+2022-04-01 21:50:47,312 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:50:57,355 INFO exited: nginx (terminated by SIGTERM; not expected)
+2022-04-01 21:50:58,357 INFO spawned: 'nginx' with pid 101
+2022-04-01 21:50:59,359 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:50:59,644 INFO exited: nginx (terminated by SIGTERM; not expected)
+2022-04-01 21:51:00,646 INFO spawned: 'nginx' with pid 104
+2022-04-01 21:51:01,648 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:51:05,371 WARN received SIGTERM indicating exit request
+2022-04-01 21:51:05,374 INFO waiting for nginx, UwU to die
+2022-04-01 21:51:05,379 INFO stopped: UwU (terminated by SIGTERM)
+2022-04-01 21:51:05,381 INFO stopped: nginx (terminated by SIGTERM)
+2022-04-01 21:51:07,707 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:51:07,715 INFO supervisord started with pid 22
+2022-04-01 21:51:08,718 INFO spawned: 'nginx' with pid 25
+2022-04-01 21:51:08,720 INFO spawned: 'UwU' with pid 26
+2022-04-01 21:51:10,500 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:51:10,503 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:51:28,742 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:51:29,760 INFO spawned: 'nginx' with pid 84
+2022-04-01 21:51:30,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:51:49,782 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:51:50,785 INFO spawned: 'nginx' with pid 86
+2022-04-01 21:51:51,787 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:52:10,809 INFO exited: nginx (exit status 1; not expected)
+2022-04-01 21:52:10,812 INFO spawned: 'nginx' with pid 88
+2022-04-01 21:52:52,945 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:52:52,956 INFO supervisord started with pid 25
+2022-04-01 21:52:53,958 INFO spawned: 'nginx' with pid 28
+2022-04-01 21:52:53,962 INFO spawned: 'UwU' with pid 29
+2022-04-01 21:52:54,964 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:52:54,965 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:59:28,766 CRIT Supervisor running as root (no user in config file)
+2022-04-01 21:59:28,800 INFO supervisord started with pid 24
+2022-04-01 21:59:29,803 INFO spawned: 'nginx' with pid 27
+2022-04-01 21:59:29,809 INFO spawned: 'UwU' with pid 28
+2022-04-01 21:59:30,811 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 21:59:30,811 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:35:56,394 CRIT Supervisor running as root (no user in config file)
+2022-04-01 22:35:56,416 INFO supervisord started with pid 22
+2022-04-01 22:35:57,420 INFO spawned: 'nginx' with pid 25
+2022-04-01 22:35:57,426 INFO spawned: 'UwU' with pid 26
+2022-04-01 22:35:58,428 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:35:58,429 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:43:26,870 CRIT Supervisor running as root (no user in config file)
+2022-04-01 22:43:26,887 INFO supervisord started with pid 23
+2022-04-01 22:43:27,890 INFO spawned: 'nginx' with pid 26
+2022-04-01 22:43:27,894 INFO spawned: 'UwU' with pid 27
+2022-04-01 22:43:28,896 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:43:28,896 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:51:26,041 CRIT Supervisor running as root (no user in config file)
+2022-04-01 22:51:26,050 INFO supervisord started with pid 24
+2022-04-01 22:51:27,056 INFO spawned: 'nginx' with pid 27
+2022-04-01 22:51:27,063 INFO spawned: 'UwU' with pid 28
+2022-04-01 22:51:28,071 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:51:28,072 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:54:21,953 CRIT Supervisor running as root (no user in config file)
+2022-04-01 22:54:21,963 INFO supervisord started with pid 24
+2022-04-01 22:54:22,965 INFO spawned: 'nginx' with pid 27
+2022-04-01 22:54:22,969 INFO spawned: 'UwU' with pid 28
+2022-04-01 22:54:23,971 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 22:54:23,971 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:02:33,128 CRIT Supervisor running as root (no user in config file)
+2022-04-01 23:02:33,154 INFO supervisord started with pid 24
+2022-04-01 23:02:34,157 INFO spawned: 'nginx' with pid 27
+2022-04-01 23:02:34,162 INFO spawned: 'UwU' with pid 28
+2022-04-01 23:02:35,163 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:02:35,164 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:11:24,448 CRIT Supervisor running as root (no user in config file)
+2022-04-01 23:11:24,467 INFO supervisord started with pid 24
+2022-04-01 23:11:25,469 INFO spawned: 'nginx' with pid 27
+2022-04-01 23:11:25,483 INFO spawned: 'UwU' with pid 28
+2022-04-01 23:11:26,493 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:11:26,494 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:19:57,968 CRIT Supervisor running as root (no user in config file)
+2022-04-01 23:19:57,983 INFO supervisord started with pid 24
+2022-04-01 23:19:58,986 INFO spawned: 'nginx' with pid 27
+2022-04-01 23:19:58,993 INFO spawned: 'UwU' with pid 28
+2022-04-01 23:20:00,006 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:20:00,007 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:33:35,085 CRIT Supervisor running as root (no user in config file)
+2022-04-01 23:33:35,103 INFO supervisord started with pid 24
+2022-04-01 23:33:36,106 INFO spawned: 'nginx' with pid 27
+2022-04-01 23:33:36,112 INFO spawned: 'UwU' with pid 28
+2022-04-01 23:33:37,114 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-01 23:33:37,119 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:03:50,214 CRIT Supervisor running as root (no user in config file)
+2022-04-02 00:03:50,228 INFO supervisord started with pid 24
+2022-04-02 00:03:51,231 INFO spawned: 'nginx' with pid 27
+2022-04-02 00:03:51,236 INFO spawned: 'UwU' with pid 28
+2022-04-02 00:03:52,238 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:03:52,238 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:07:07,668 CRIT Supervisor running as root (no user in config file)
+2022-04-02 00:07:07,683 INFO supervisord started with pid 24
+2022-04-02 00:07:08,686 INFO spawned: 'nginx' with pid 27
+2022-04-02 00:07:08,687 INFO spawned: 'UwU' with pid 28
+2022-04-02 00:07:09,691 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:07:09,692 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:19:01,731 CRIT Supervisor running as root (no user in config file)
+2022-04-02 00:19:01,747 INFO supervisord started with pid 24
+2022-04-02 00:19:02,750 INFO spawned: 'nginx' with pid 27
+2022-04-02 00:19:02,754 INFO spawned: 'UwU' with pid 28
+2022-04-02 00:19:03,755 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 00:19:03,756 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-03 17:43:39,990 CRIT Supervisor running as root (no user in config file)
+2022-04-03 17:43:39,998 INFO supervisord started with pid 22
+2022-04-03 17:43:41,000 INFO spawned: 'nginx' with pid 25
+2022-04-03 17:43:41,007 INFO spawned: 'UwU' with pid 26
+2022-04-03 17:43:42,008 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-03 17:43:42,009 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 05:56:43,479 CRIT Supervisor running as root (no user in config file)
+2022-04-04 05:56:43,486 INFO supervisord started with pid 22
+2022-04-04 05:56:44,488 INFO spawned: 'nginx' with pid 25
+2022-04-04 05:56:44,494 INFO spawned: 'UwU' with pid 26
+2022-04-04 05:56:45,497 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 05:56:45,498 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 07:35:11,300 CRIT Supervisor running as root (no user in config file)
+2022-04-04 07:35:11,309 INFO supervisord started with pid 24
+2022-04-04 07:35:12,312 INFO spawned: 'nginx' with pid 27
+2022-04-04 07:35:12,316 INFO spawned: 'UwU' with pid 28
+2022-04-04 07:35:13,317 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 07:35:13,317 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:00:13,993 CRIT Supervisor running as root (no user in config file)
+2022-04-04 11:00:14,007 INFO supervisord started with pid 23
+2022-04-04 11:00:15,010 INFO spawned: 'nginx' with pid 26
+2022-04-04 11:00:15,016 INFO spawned: 'UwU' with pid 27
+2022-04-04 11:00:16,019 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:00:16,020 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:19:12,062 CRIT Supervisor running as root (no user in config file)
+2022-04-04 11:19:12,070 INFO supervisord started with pid 24
+2022-04-04 11:19:13,073 INFO spawned: 'nginx' with pid 27
+2022-04-04 11:19:13,076 INFO spawned: 'UwU' with pid 28
+2022-04-04 11:19:13,083 INFO exited: nginx (exit status 1; not expected)
+2022-04-04 11:19:14,086 INFO spawned: 'nginx' with pid 51
+2022-04-04 11:19:14,087 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:19:14,104 INFO exited: nginx (exit status 1; not expected)
+2022-04-04 11:19:16,190 INFO spawned: 'nginx' with pid 52
+2022-04-04 11:19:16,201 INFO exited: nginx (exit status 1; not expected)
+2022-04-04 11:19:19,206 INFO spawned: 'nginx' with pid 53
+2022-04-04 11:19:19,223 INFO exited: nginx (exit status 1; not expected)
+2022-04-04 11:19:20,225 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2022-04-04 11:57:04,584 CRIT Supervisor running as root (no user in config file)
+2022-04-04 11:57:04,593 INFO supervisord started with pid 24
+2022-04-04 11:57:05,596 INFO spawned: 'nginx' with pid 27
+2022-04-04 11:57:05,599 INFO spawned: 'UwU' with pid 28
+2022-04-04 11:57:06,602 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:57:06,603 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:58:47,192 CRIT Supervisor running as root (no user in config file)
+2022-04-04 11:58:47,198 INFO supervisord started with pid 24
+2022-04-04 11:58:48,201 INFO spawned: 'nginx' with pid 27
+2022-04-04 11:58:48,202 INFO spawned: 'UwU' with pid 28
+2022-04-04 11:58:49,207 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:58:49,207 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:59:47,096 CRIT Supervisor running as root (no user in config file)
+2022-04-04 11:59:47,102 INFO supervisord started with pid 24
+2022-04-04 11:59:48,104 INFO spawned: 'nginx' with pid 27
+2022-04-04 11:59:48,106 INFO spawned: 'UwU' with pid 28
+2022-04-04 11:59:49,108 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 11:59:49,109 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:23:35,534 CRIT Supervisor running as root (no user in config file)
+2022-04-04 13:23:35,552 INFO supervisord started with pid 23
+2022-04-04 13:23:36,555 INFO spawned: 'nginx' with pid 26
+2022-04-04 13:23:36,557 INFO spawned: 'UwU' with pid 27
+2022-04-04 13:23:37,558 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:23:37,559 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:27:22,752 CRIT Supervisor running as root (no user in config file)
+2022-04-04 13:27:22,763 INFO supervisord started with pid 23
+2022-04-04 13:27:23,766 INFO spawned: 'nginx' with pid 26
+2022-04-04 13:27:23,768 INFO spawned: 'UwU' with pid 27
+2022-04-04 13:27:24,770 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:27:24,770 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:29:28,392 CRIT Supervisor running as root (no user in config file)
+2022-04-04 13:29:28,399 INFO supervisord started with pid 24
+2022-04-04 13:29:29,402 INFO spawned: 'nginx' with pid 27
+2022-04-04 13:29:29,404 INFO spawned: 'UwU' with pid 28
+2022-04-04 13:29:30,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:29:30,407 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:31:01,556 CRIT Supervisor running as root (no user in config file)
+2022-04-04 13:31:01,565 INFO supervisord started with pid 24
+2022-04-04 13:31:02,568 INFO spawned: 'nginx' with pid 27
+2022-04-04 13:31:02,573 INFO spawned: 'UwU' with pid 28
+2022-04-04 13:31:03,577 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 13:31:03,578 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:06:40,943 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:06:40,949 INFO supervisord started with pid 24
+2022-04-04 14:06:41,952 INFO spawned: 'nginx' with pid 27
+2022-04-04 14:06:41,954 INFO spawned: 'UwU' with pid 28
+2022-04-04 14:06:42,955 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:06:42,955 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:16:29,462 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:16:29,478 INFO supervisord started with pid 25
+2022-04-04 14:16:30,481 INFO spawned: 'nginx' with pid 28
+2022-04-04 14:16:30,491 INFO spawned: 'UwU' with pid 29
+2022-04-04 14:16:31,494 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:16:31,495 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:23:10,417 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:23:10,426 INFO supervisord started with pid 24
+2022-04-04 14:23:11,429 INFO spawned: 'nginx' with pid 27
+2022-04-04 14:23:11,436 INFO spawned: 'UwU' with pid 28
+2022-04-04 14:23:12,438 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:23:12,439 INFO success: UwU entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:26:05,599 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:26:05,607 INFO supervisord started with pid 22
+2022-04-04 14:26:06,610 INFO spawned: 'nginx' with pid 25
+2022-04-04 14:26:07,611 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:27:01,396 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:27:01,402 INFO supervisord started with pid 24
+2022-04-04 14:27:02,404 INFO spawned: 'nginx' with pid 27
+2022-04-04 14:27:03,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 14:28:31,895 CRIT Supervisor running as root (no user in config file)
+2022-04-04 14:28:31,916 INFO supervisord started with pid 24
+2022-04-04 14:28:32,918 INFO spawned: 'nginx' with pid 27
+2022-04-04 14:28:33,920 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 15:27:59,849 CRIT Supervisor running as root (no user in config file)
+2022-04-04 15:27:59,859 INFO supervisord started with pid 24
+2022-04-04 15:28:00,861 INFO spawned: 'nginx' with pid 27
+2022-04-04 15:28:01,863 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-04 15:30:14,258 CRIT Supervisor running as root (no user in config file)
+2022-04-04 15:30:14,266 INFO supervisord started with pid 23
+2022-04-04 15:30:15,268 INFO spawned: 'nginx' with pid 26
+2022-04-04 15:30:16,269 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 09:08:50,989 CRIT Supervisor running as root (no user in config file)
+2022-04-05 09:08:51,040 INFO supervisord started with pid 24
+2022-04-05 09:08:52,043 INFO spawned: 'nginx' with pid 27
+2022-04-05 09:08:53,050 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 10:58:03,769 CRIT Supervisor running as root (no user in config file)
+2022-04-05 10:58:03,781 INFO supervisord started with pid 22
+2022-04-05 10:58:04,785 INFO spawned: 'nginx' with pid 25
+2022-04-05 10:58:05,787 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 11:19:06,265 CRIT Supervisor running as root (no user in config file)
+2022-04-05 11:19:06,276 INFO supervisord started with pid 24
+2022-04-05 11:19:07,279 INFO spawned: 'nginx' with pid 27
+2022-04-05 11:19:08,280 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 11:23:18,978 CRIT Supervisor running as root (no user in config file)
+2022-04-05 11:23:18,996 INFO supervisord started with pid 23
+2022-04-05 11:23:19,998 INFO spawned: 'nginx' with pid 26
+2022-04-05 11:23:21,000 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 11:25:26,429 CRIT Supervisor running as root (no user in config file)
+2022-04-05 11:25:26,433 INFO supervisord started with pid 23
+2022-04-05 11:25:27,435 INFO spawned: 'nginx' with pid 26
+2022-04-05 11:25:28,437 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 17:58:28,450 CRIT Supervisor running as root (no user in config file)
+2022-04-05 17:58:28,457 INFO supervisord started with pid 24
+2022-04-05 17:58:29,459 INFO spawned: 'nginx' with pid 27
+2022-04-05 17:58:30,461 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:02:13,047 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:02:13,054 INFO supervisord started with pid 23
+2022-04-05 18:02:14,056 INFO spawned: 'nginx' with pid 26
+2022-04-05 18:02:15,058 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:10:17,679 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:10:17,687 INFO supervisord started with pid 24
+2022-04-05 18:10:18,689 INFO spawned: 'nginx' with pid 27
+2022-04-05 18:10:19,691 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:14:36,452 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:14:36,459 INFO supervisord started with pid 21
+2022-04-05 18:14:37,462 INFO spawned: 'nginx' with pid 24
+2022-04-05 18:14:38,463 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:17:21,104 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:17:21,109 INFO supervisord started with pid 22
+2022-04-05 18:17:22,112 INFO spawned: 'nginx' with pid 25
+2022-04-05 18:17:23,114 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:19:48,665 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:19:48,672 INFO supervisord started with pid 21
+2022-04-05 18:19:49,675 INFO spawned: 'nginx' with pid 24
+2022-04-05 18:19:50,677 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:21:12,141 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:21:12,145 INFO supervisord started with pid 24
+2022-04-05 18:21:13,147 INFO spawned: 'nginx' with pid 27
+2022-04-05 18:21:14,149 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:27:23,050 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:27:23,060 INFO supervisord started with pid 24
+2022-04-05 18:27:24,062 INFO spawned: 'nginx' with pid 27
+2022-04-05 18:27:25,069 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:32:00,543 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:32:00,559 INFO supervisord started with pid 23
+2022-04-05 18:32:01,562 INFO spawned: 'nginx' with pid 26
+2022-04-05 18:32:02,564 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:45:52,619 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:45:52,632 INFO supervisord started with pid 23
+2022-04-05 18:45:53,635 INFO spawned: 'nginx' with pid 26
+2022-04-05 18:45:54,637 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:55:17,653 CRIT Supervisor running as root (no user in config file)
+2022-04-05 18:55:17,666 INFO supervisord started with pid 24
+2022-04-05 18:55:18,669 INFO spawned: 'nginx' with pid 27
+2022-04-05 18:55:19,671 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 18:59:12,193 INFO exited: nginx (exit status 0; expected)
+2022-04-05 20:19:09,234 CRIT Supervisor running as root (no user in config file)
+2022-04-05 20:19:09,242 INFO supervisord started with pid 24
+2022-04-05 20:19:10,245 INFO spawned: 'nginx' with pid 27
+2022-04-05 20:19:11,247 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 20:25:26,156 CRIT Supervisor running as root (no user in config file)
+2022-04-05 20:25:26,163 INFO supervisord started with pid 23
+2022-04-05 20:25:27,166 INFO spawned: 'nginx' with pid 26
+2022-04-05 20:25:28,168 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 20:28:00,123 CRIT Supervisor running as root (no user in config file)
+2022-04-05 20:28:00,130 INFO supervisord started with pid 24
+2022-04-05 20:28:01,132 INFO spawned: 'nginx' with pid 27
+2022-04-05 20:28:02,134 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-05 20:34:48,345 CRIT Supervisor running as root (no user in config file)
+2022-04-05 20:34:48,356 INFO supervisord started with pid 24
+2022-04-05 20:34:49,361 INFO spawned: 'nginx' with pid 27
+2022-04-05 20:34:50,364 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

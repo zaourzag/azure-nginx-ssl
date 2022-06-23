@@ -1,0 +1,3 @@
+tunnel: eb8c0334-b916-47db-b361-9709990b95ff
+credentials-file: /etc/cloudflared/eb8c0334-b916-47db-b361-9709990b95ff.json
+url: http://nginxt:80
