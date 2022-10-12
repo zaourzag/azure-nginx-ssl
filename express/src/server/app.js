@@ -17,8 +17,10 @@ const { CoronaGraphsClient } = require('@aero/corona-graphs');
 const coronagraphs = new CoronaGraphsClient(corona, chartgenUrl);
 
 const logger = require('morgan');
-logger.token('type', function (req, res) { return req.headers['content-type'] })
-logger(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] -  :response-time ms ":referrer" ":user-agent" content-type - :type ');
+app.use(logger(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] -  :response-time ms ":referrer" ":user-agent" content-type - :type '));
+
+//logger.token('type', function (req, res) { return req.headers['content-type'] })
+//ogger(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] -  :response-time ms ":referrer" ":user-agent" content-type - :type ');
 const errorimg = [
 	{
 		"id": 0,
@@ -429,12 +431,73 @@ const image = fs.readFileSync(
     res.status(404).send({sucess: 'false', error: `${error}: this likely means the pokemon does not exist or it is not in the database yet` });
   }
 });
+
 app.get('/api/ip', (req, res) => {
   const { headers } = req;
 
   const ip = headers['x-forwarded-for'] || req.socket.remoteAddress 
   res.send(ip);
 })
+app.get('/api/img', async (req, res) => {
+
+
+
+  // Use child_process.spawn method from
+  // child_process module and assign it
+  // to variable spawn
+  var spawn = require("child_process").spawn;
+
+  // Parameters passed in spawn -
+  // 1. type_of_script
+  // 2. list containing Path of the script
+  //    and arguments for the script
+
+  // E.g : http://localhost:3000/name?firstname=Mike&lastname=Will
+  // so, first name = Mike and last name = Will
+  var process = spawn('python3',["/home/site/wwwroot/src/server/netflix.py"]);
+
+  // Takes stdout data from script which executed
+  // with arguments and send this data to res object
+  process.stdout.on('data', async function(data) {
+    const netflix = await http(`${data}`).raw()
+res.contentType('image/png');
+ const buf = await Buffer.from(netflix, 'binary');
+  res.status(200).send(buf)
+
+//        res.send(data.toString());
+  }) })
+  app.get("/api/v2/netflix", async (req,res) => {
+
+    const fs = require('fs');
+    const got = require('@aero/http');
+    const jsdom = require("jsdom");
+    const { JSDOM } = jsdom;
+    
+    const vgmUrl= 'https://www.netflix.com/nl-en/';
+    
+    const lol  = await got(vgmUrl).get().text().then(response => {
+  
+     
+      const dom = new JSDOM(response);
+    
+      return( dom.window.document.querySelector("img").getAttribute('src'))
+    });
+    async function geturl() {
+      const dom = new JSDOM(await lol);
+     console.log(dom)
+     console.log(dom.window.document.getElementsByClassName('#concord-img'));
+      // console.log(dom.window.document.querySelector('#concord-img'));
+    }
+    const url =
+    res.set("Content-Type", "text/html") 
+   const rip = await got(lol).raw()
+    res.contentType('image/jpeg');
+    const buf = await Buffer.from(rip, 'binary');
+   await res.send(buf)
+  
+  
+  
+  })
 app.get('/api/links/view', (req, res) => {
   const {auth} = req.query;
   if (auth ===! 'Zakaria1') {
